@@ -1,3 +1,5 @@
+import * as $ from 'jquery';
+
 $('#user_form').submit(function(event) {
   event.preventDefault();  // Prevents the default form submission.
   $('#message-div').addClass('hidden');  // Remove any messages on screen.
